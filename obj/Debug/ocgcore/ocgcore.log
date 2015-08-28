@@ -1,0 +1,46 @@
+﻿生成启动时间为 2015/2/24 19:24:18。
+     1>项目“D:\GitHub\ygopro\build\ocgcore.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\lua\lua-5.3.0" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WIN32 /D _CRT_SECURE_NO_WARNINGS /D _DEBUG /D _ITERATOR_DEBUG_LEVEL=0 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\obj\Debug\ocgcore\\" /Fd"..\bin\debug\ocgcore.pdb" /Gd /TP /analyze- /errorReport:prompt -wd4996 ..\ocgcore\card.cpp ..\ocgcore\duel.cpp ..\ocgcore\effect.cpp ..\ocgcore\field.cpp ..\ocgcore\group.cpp ..\ocgcore\interpreter.cpp ..\ocgcore\libcard.cpp ..\ocgcore\libdebug.cpp ..\ocgcore\libduel.cpp ..\ocgcore\libeffect.cpp ..\ocgcore\libgroup.cpp ..\ocgcore\mem.cpp ..\ocgcore\ocgapi.cpp ..\ocgcore\operations.cpp ..\ocgcore\playerop.cpp ..\ocgcore\processor.cpp ..\ocgcore\scriptlib.cpp
+         scriptlib.cpp
+         processor.cpp
+         playerop.cpp
+         operations.cpp
+         ocgapi.cpp
+         mem.cpp
+         libgroup.cpp
+         libeffect.cpp
+         libduel.cpp
+         libdebug.cpp
+         libcard.cpp
+         interpreter.cpp
+         group.cpp
+         field.cpp
+         effect.cpp
+         duel.cpp
+         card.cpp
+         正在生成代码...
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"..\bin\debug\ocgcore.lib" /NOLOGO ..\obj\Debug\ocgcore\card.obj
+         ..\obj\Debug\ocgcore\duel.obj
+         ..\obj\Debug\ocgcore\effect.obj
+         ..\obj\Debug\ocgcore\field.obj
+         ..\obj\Debug\ocgcore\group.obj
+         ..\obj\Debug\ocgcore\interpreter.obj
+         ..\obj\Debug\ocgcore\libcard.obj
+         ..\obj\Debug\ocgcore\libdebug.obj
+         ..\obj\Debug\ocgcore\libduel.obj
+         ..\obj\Debug\ocgcore\libeffect.obj
+         ..\obj\Debug\ocgcore\libgroup.obj
+         ..\obj\Debug\ocgcore\mem.obj
+         ..\obj\Debug\ocgcore\ocgapi.obj
+         ..\obj\Debug\ocgcore\operations.obj
+         ..\obj\Debug\ocgcore\playerop.obj
+         ..\obj\Debug\ocgcore\processor.obj
+         ..\obj\Debug\ocgcore\scriptlib.obj
+         ocgcore.vcxproj -> D:\GitHub\ygopro\build\..\bin\debug\ocgcore.lib
+     1>已完成生成项目“D:\GitHub\ygopro\build\ocgcore.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:37.09

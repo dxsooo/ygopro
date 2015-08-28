@@ -1,0 +1,22 @@
+﻿生成启动时间为 2015/2/24 19:17:27。
+     1>项目“D:\GitHub\ygopro\build\clzma.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WIN32 /D _CRT_SECURE_NO_WARNINGS /D _DEBUG /D _ITERATOR_DEBUG_LEVEL=0 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\obj\Debug\clzma\\" /Fd"..\bin\debug\clzma.pdb" /Gd /TC /analyze- /errorReport:prompt -wd4996 ..\gframe\lzma\Alloc.c ..\gframe\lzma\LzFind.c ..\gframe\lzma\LzmaDec.c ..\gframe\lzma\LzmaEnc.c ..\gframe\lzma\LzmaLib.c
+         LzmaLib.c
+         LzmaEnc.c
+         LzmaDec.c
+         LzFind.c
+         Alloc.c
+         正在生成代码...
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"..\bin\debug\clzma.lib" /NOLOGO ..\obj\Debug\clzma\Alloc.obj
+         ..\obj\Debug\clzma\LzFind.obj
+         ..\obj\Debug\clzma\LzmaDec.obj
+         ..\obj\Debug\clzma\LzmaEnc.obj
+         ..\obj\Debug\clzma\LzmaLib.obj
+         clzma.vcxproj -> D:\GitHub\ygopro\build\..\bin\debug\clzma.lib
+     1>已完成生成项目“D:\GitHub\ygopro\build\clzma.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.91

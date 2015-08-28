@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ocgcore", "ocgcore.vcxproj", "{FE1FCB7A-B07B-1644-BC1B-8845027A9CFE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clzma", "clzma.vcxproj", "{4073F6A8-74A8-5341-8EFA-754E5E61273B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ygopro", "ygopro.vcxproj", "{E03F92A8-4B42-FE4B-A21C-B37C5F942AF5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE1FCB7A-B07B-1644-BC1B-8845027A9CFE} = {FE1FCB7A-B07B-1644-BC1B-8845027A9CFE}
+		{4073F6A8-74A8-5341-8EFA-754E5E61273B} = {4073F6A8-74A8-5341-8EFA-754E5E61273B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE1FCB7A-B07B-1644-BC1B-8845027A9CFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE1FCB7A-B07B-1644-BC1B-8845027A9CFE}.Debug|Win32.Build.0 = Debug|Win32
+		{FE1FCB7A-B07B-1644-BC1B-8845027A9CFE}.Release|Win32.ActiveCfg = Release|Win32
+		{FE1FCB7A-B07B-1644-BC1B-8845027A9CFE}.Release|Win32.Build.0 = Release|Win32
+		{4073F6A8-74A8-5341-8EFA-754E5E61273B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4073F6A8-74A8-5341-8EFA-754E5E61273B}.Debug|Win32.Build.0 = Debug|Win32
+		{4073F6A8-74A8-5341-8EFA-754E5E61273B}.Release|Win32.ActiveCfg = Release|Win32
+		{4073F6A8-74A8-5341-8EFA-754E5E61273B}.Release|Win32.Build.0 = Release|Win32
+		{E03F92A8-4B42-FE4B-A21C-B37C5F942AF5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E03F92A8-4B42-FE4B-A21C-B37C5F942AF5}.Debug|Win32.Build.0 = Debug|Win32
+		{E03F92A8-4B42-FE4B-A21C-B37C5F942AF5}.Release|Win32.ActiveCfg = Release|Win32
+		{E03F92A8-4B42-FE4B-A21C-B37C5F942AF5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
